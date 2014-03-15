@@ -1,0 +1,80 @@
+#painter {
+    width: 270px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#canvas {
+    border:5px solid #222;
+    height: 264px;
+    width: 264px;
+    padding: 0;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#canvas li {
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    padding: 0;
+    margin: 0 auto;
+    float: left;
+}
+.blue {
+    background-color: blue
+}
+.white {
+    background-color: white
+}
+.red {
+    background-color: red
+}
+.black {
+    background-color: black
+}
+.yellow {
+    background-color: yellow
+}
+.orange {
+    background-color: orange
+}
+.green {
+    background-color: green
+}
+ul {
+    list-style-type:none;
+    margin: 5px 0 0 0;
+    padding:0;
+    border:0;
+    height:30px;
+}
+li {
+    margin:0 auto;
+    padding:0;
+    border:1px solid #ddd;
+    display:inline-block;
+    width:32px;
+    height:32px;
+    cursor:pointer;
+}
+
+#palette li {
+    border-radius: 5px;
+ 
+}
+
+li.active {
+    border:2px solid #666;
+}
+a, a:hover {
+    margin-top:10px;
+    font-family:Arial, sans-serif;
+    display:block;
+    width:100% padding:5px 10px;
+    background:#333;
+    color:white;
+    text-decoration:none;
+    font-size:2em;
+    text-align:center;
+    border-radius: 5px;
+}
