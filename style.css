@@ -1,8 +1,128 @@
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  margin: 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  z-index: 1;
+  background-image: -webkit-gradient(linear,  left top,  left bottom, 
+		color-stop(0.00, red), 
+		color-stop(16%, orange),
+		color-stop(32%, yellow),
+		color-stop(48%, green),
+		color-stop(60%, blue),
+		color-stop(76%, indigo),
+		color-stop(1.00, violet));
+}
+
+h1 {
+  font-family: Audiowide, sans-serif;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  margin: 15px 0;
+  font-weight: bold;
+  line-height: 0.8em;
+  text-align: center;
+}
+
+h2 {
+	font-family: Audiowide;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  margin: -5px 0 0;
+  padding-bottom: 10px;
+  font-weight: normal;
+  text-align: center;
+}
+
+/**********************************
+CONTENT
+***********************************/
+
+section {
+  width: 70%;
+  margin: 0 15%;
+  background-color: #fff;
+  color: #222;
+}
+
+p {
+	font-family: Numans, sans-serif;
+	padding: 0 30px;
+	clear: both;
+	}
+	
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  font-family: Numans, sans-serif;
+  margin: 0 auto;
+}
+
+nav a {
+  font-weight: 800px;
+  padding: 15px 10px;
+  font-family: Numans, sans-serif;
+  background-color: #fff;
+  color: #000;
+  margin: 0 5px;
+   padding:5px 10px;
+   text-decoration:none;
+   font-size:1em;
+   text-align:center;
+   border-radius: 5px;
+   border: 1px black solid;
+  
+}
+
+nav a:hover {
+  font-weight: bold;
+  padding: 15px 10px;
+  font-family: Numans, sans-serif;
+  background-color: #fff;
+  color: #000;
+  margin: 0 5px;
+   padding:5px 10px;
+   text-decoration:none;
+   font-size:1em;
+   text-align:center;
+   border-radius: 5px;
+   border: 1px black solid;
+  
+}
+
+
+
+/**********************************
+PAINTER APP
+***********************************/
+
+
 #painter {
     width: 270px;
     margin-left:auto;
     margin-right:auto;
+    
 }
+
 #canvas {
     border:5px solid #222;
     height: 264px;
@@ -48,7 +168,8 @@ ul {
     border:0;
     height:30px;
 }
-li {
+
+#palette li {
     margin:0 auto;
     padding:0;
     border:1px solid #ddd;
@@ -56,25 +177,59 @@ li {
     width:32px;
     height:32px;
     cursor:pointer;
-}
-
-#palette li {
     border-radius: 5px;
  
 }
 
-li.active {
+#palette li.active {
     border:2px solid #666;
 }
+
 a, a:hover {
     margin-top:10px;
-    font-family:Arial, sans-serif;
+    font-family: Audiowide, sans-serif;
     display:block;
     width:100% padding:5px 10px;
-    background:#333;
+    background:#444;
     color:white;
     text-decoration:none;
     font-size:2em;
     text-align:center;
     border-radius: 5px;
 }
+
+
+/**********************************
+PAGE: GALLERY
+***********************************/
+
+img {
+  max-width: 100%;
+}
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2%;
+  background-color: #fff;
+  border: #333 solid 1px;
+  color: #333;
+  border-radius: 5px;
+}
+
+#gallery li p {
+  margin: 0;
+  padding: 2%;
+  font-size: 0.75em;
+  color: #333;
+}
+
+#gallery li p {
+  text-align: center;
+  }
